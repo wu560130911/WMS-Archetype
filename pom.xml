@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.wms.studio</groupId>
+	<artifactId>WMS-Archetype</artifactId>
+	<version>1.4</version>
+	<name>Archetype - WMS-Archetype</name>
+	<url>http://maven.apache.org</url>
+	<distributionManagement>
+		<repository>
+			<id>releases</id>
+			<name>Nexus Release Repository</name>
+			<url>http://localhost:8081/nexus/content/repositories/releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>Nexus Snapshot Repository</name>
+			<url>http:// localhost:8081/nexus/content/repositories/snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

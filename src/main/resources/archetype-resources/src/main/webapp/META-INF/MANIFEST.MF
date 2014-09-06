@@ -1,0 +1,4 @@
+Manifest-Version: 1.3
+Author:WMS
+Class-Path: 
+
